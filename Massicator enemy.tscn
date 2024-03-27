@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbh4p4vmislg4"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(32, 64)
+
+[node name="Massicator enemy" type="CharacterBody2D"]
+
+[node name="Massicator" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("1")
